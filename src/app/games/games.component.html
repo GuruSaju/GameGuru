@@ -1,15 +1,15 @@
-<h2>{{ game.name | uppercase }} Details</h2>
-<div><span>id: </span>{{game.serialNo}}</div>
+<h2>{{ game.serialNo}}. {{ game.name | uppercase }} </h2>
 <div>
     <label>Name:
       <input [(ngModel)]="game.name" placeholder="name">
     </label>
-    <br/>
-    <label>Review:
-      <input [(ngModel)]="game.review" placeholder="review">
-    </label>
-    <br/>
+    <br/><br/>
     <label>Rating:
       <input [(ngModel)]="game.rating" placeholder="rating">
     </label>
+    <br/><br/>
+    <label>Review:
+      <input [(ngModel)]="game.review" placeholder="review">
+    </label>
+    
 </div>
