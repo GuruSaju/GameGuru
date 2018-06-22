@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./games.component.css']
 })
 export class GamesComponent implements OnInit {
-
+  game = 'Horizon Zero Dawn';
   constructor() { }
 
   ngOnInit() {
