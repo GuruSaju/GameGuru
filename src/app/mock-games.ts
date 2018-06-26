@@ -8,5 +8,10 @@ export const GAMES: Game[] = [
     { serialNo: 5, name: 'Batman Arkham Knight', review:'Be the Batman and feel like one', rating : 9.0},
     { serialNo: 6, name: 'Far Cry 4', review:'Explore the world of kyrat with wildlife', rating : 9.1},
     { serialNo: 7, name: 'Assasin\'s Creed Syndicate', review:'London at it\'s finest with historical characters', rating : 8.6},
-    { serialNo: 8, name: 'Far Cry Primal', review:'Be a primal and get transported to BC', rating : 8.9}
+    { serialNo: 8, name: 'Far Cry Primal', review:'Be a primal and get transported to BC', rating : 8.9},
+    { serialNo: 9, name: 'Madden 15', review:'Awesome graphics and great learning experience', rating : 9.0},
+    { serialNo: 10, name: 'Call of Duty: Ghosts', review:'Just another call of duty game', rating : 7.0},
+    { serialNo: 11, name: 'Grand Theft Auto V', review:'Massive world with incredible characterization', rating : 9.5},
+    { serialNo: 12, name: 'Thief', review:'Great stealth game but not like the previous edition', rating : 7.7},
+    { serialNo: 13, name: 'Fortnite: Battle Royale', review:'Build Shoot Reload all at once!', rating : 8.2}
 ]
