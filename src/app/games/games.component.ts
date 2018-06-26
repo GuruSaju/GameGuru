@@ -9,10 +9,13 @@ import {GAMES} from '../mock-games';
 })
 export class GamesComponent implements OnInit {
   games = GAMES;
-  
+  selectedGame :Game;
   constructor() { }
 
   ngOnInit() {
   }
 
+  onSelect(game: Game): void {
+    this.selectedGame =game;
+  }
 }
