@@ -1,3 +1,11 @@
-<p>
-  game-detail works!
-</p>
+<div *ngIf="game">
+ 
+  <h2>{{ game.name | uppercase }} Details</h2>
+  <div><span>id: </span>{{game.serialNo}}</div>
+  <div>
+    <label>Review:
+      <input [(ngModel)]="game.review" placeholder="review">
+    </label>
+  </div>
+ 
+</div>
