@@ -1,12 +1,16 @@
-<h2>Guru's Games</h2>
-<ul class ="gamesUl">
-  <li *ngFor = "let game of games" [class.selectedGame] = "game === selectedGame" (click) = "onSelect(game)">
-    <span class = "badge">{{game.serialNo}} </span>{{game.name}}
-  </li>
-</ul>
-
-<app-game-detail [game] = "selectedGame"></app-game-detail>
-
+<div class="row">
+  <div class="col-md-3">
+    <h2>Guru's Games</h2>
+    <ul class="gamesUl">
+      <li *ngFor="let game of games" [class.selectedGame]="game === selectedGame" (click)="onSelect(game)">
+        <span class="badge">{{game.serialNo}} </span>{{game.name}}
+      </li>
+    </ul>
+  </div>
+  <div class="col-md-9">
+    <app-game-detail [game]="selectedGame"></app-game-detail>
+  </div>
+</div>
 
 
 
