@@ -12,7 +12,7 @@ export class GameService {
 
   constructor() { }
 
-  getGames(): Game[] {
-    return GAMES;
+  getGames(): Observable<Game[]> {
+    return of(GAMES);
   }
 }
